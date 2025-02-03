@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, make_response
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_cors import CORS
-from .models import db, Dealer, Car, Feature
+from models import db, Dealer, Car, Feature
 import os
 from dotenv import load_dotenv
 load_dotenv()
